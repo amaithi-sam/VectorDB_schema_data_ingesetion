@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "vectordb-schema-data-ingesetion"
+version = "0.1.0"
+description = ""
+authors = ["amaithi-sam <amaithichirasan.s@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+langchain = "^0.1.16"
+langchain-community = "^0.0.34"
+pyyaml = "^6.0.1"
+weaviate-client = "==3.*"
+unstructured = "^0.13.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
